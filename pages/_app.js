@@ -11,7 +11,7 @@ const links = [
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto flex flex-col h-screen justify-between">
       <header className="pt-12 ml-2">
         <a href="/"
           className="text-pink-700 hover:text-pink-200 hover:border-black transition duration-500 text-5xl font-bold border-gray-300 border-b-2 inline-block pb-0.5">
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
               return (
                 <li key={link}>
                   <Link href={`${link}`}>
-                    <a className="transition duration-200 text-center m-2 block font-light text-3xl hover:text-red-400 focus:text-blue-200">{link}</a>
+                    <a className="transition duration-200 text-center m-2 block font-light text-3xl hover:text-red-400 focus:text-pink-200">{link}</a>
                   </Link>
                 </li>
               )
@@ -35,8 +35,8 @@ function MyApp({ Component, pageProps }) {
 
       <Component {...pageProps} />
 
-      <footer>
-        <nav className="py-4">
+      <footer className="mb-10">
+        <nav className="py-auto">
           <ul className="flex flex-wrap justify-center">
           <li className="px-8">
               <Link href="https://www.linkedin.com/in/jeremy-bell91/">
