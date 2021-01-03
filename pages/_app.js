@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
 
       <Component {...pageProps} />
 
-      <footer className="mb-10">
+      <footer className="mb-10 pb-10">
         <nav className="py-auto">
           <ul className="flex flex-wrap justify-center">
           <li className="px-8">

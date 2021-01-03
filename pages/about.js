@@ -1,10 +1,10 @@
 const About = () => {
     return (
-        <>
+        <>    
+
+
 <div className=" mx-auto px-2">
-    <h2 className="text-3xl font-extrabold leading-9 border-b-2 border-gray-100 text-gray-900 mb-12">
-        Six Questions to Get to Know Me
-    </h2>
+
     <ul className="grid place-items-start grid-cols-1 gap-8 md:grid-cols-2 mb-6">
         <li className="w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
