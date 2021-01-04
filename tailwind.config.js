@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [],
+  purge: ['./pages/**/*.js'],
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -851,5 +851,5 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [],
 }

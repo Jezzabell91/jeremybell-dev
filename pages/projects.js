@@ -4,7 +4,7 @@ const Projects = () => {
         <div className="lg:grid lg:grid-cols-1 lg:grid-rows-2 md:gap-8 lg:gap-12 lg:items-center mb-6">
             <div className="lg:col-start-2 lg:row-start-1 max-w-lg ">
                 <h4 className="text-2xl leading-8 font-extrabold text-gray-900">
-                    <a href="https://cowgo.herokuapp.com/" className="hover:text-red-400 underline">CowGo</a>
+                    <a href="https://cowgo.herokuapp.com/" className="hover:text-red-400 underline transition duration-200">CowGo</a>
                 </h4>
                 <h5 className="text-l leading-8 font-medium text-gray-700">
                     Coder Academy - Ruby on Rails Project 
@@ -65,7 +65,7 @@ const Projects = () => {
                                     GitHub Repository
                                 </h5>
                                 <p className="mt-2 text-base leading-6 text-gray-500">
-                                    <a href="https://github.com/Jezzabell91/cowgo1" className="hover:underline">https://github.com/Jezzabell91/cowgo1</a>
+                                    <a href="https://github.com/Jezzabell91/cowgo1" className="hover:underline transition duration-200">https://github.com/Jezzabell91/cowgo1</a>
                                 </p>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ const Projects = () => {
                                     GitHub Repository
                                 </h5>
                                 <p className="mt-2 text-base leading-6 text-gray-500">
-                                    <a href="https://github.com/Jezzabell91/SteggyHide" className="hover:underline">https://github.com/Jezzabell91/SteggyHide</a>
+                                    <a href="https://github.com/Jezzabell91/SteggyHide" className="hover:underline transition duration-200">https://github.com/Jezzabell91/SteggyHide</a>
                                 </p>
                             </div>
                         </div>

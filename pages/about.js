@@ -5,9 +5,9 @@ const About = () => {
 
 <div className=" mx-auto px-2">
 
-    <ul className="grid place-items-start grid-cols-1 gap-8 md:grid-cols-2 mb-6">
+    <ul className="grid place-items-start grid-cols-1 gap-4 md:grid-cols-2 mb-6">
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What are you most excited for in 2021?
             </p>
             <p className="mt-2">
@@ -17,7 +17,7 @@ const About = () => {
             </p>
         </li>
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What would you want to achieve if you had all of the knowledge, resources and self-belief you needed?
             </p>
             <p className="mt-2">
@@ -26,7 +26,7 @@ const About = () => {
             </p>
         </li>
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What are you currently working on?
             </p>
             <p className="mt-2">
@@ -35,7 +35,7 @@ const About = () => {
             </p>
         </li>
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What do you like to do outside of developing?
             </p>
             <p className="mt-2">
@@ -46,7 +46,7 @@ For outside activities, I enjoy running, lifting weights, bouldering and once a 
             </p>
         </li>
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What is a side project you want to work on?
             </p>
             <p className="mt-2">
@@ -55,7 +55,7 @@ For outside activities, I enjoy running, lifting weights, bouldering and once a 
             </p>
         </li>
         <li className="lg:w-4/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
+            <p className="text-xl font-medium leading-6 text-gray-900">
                 What is the thing you could talk endlessy about?
             </p>
             <p className="mt-2">

@@ -4,7 +4,12 @@ const Blog = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 md:grid-flow-col-dense lg:grid-cols-3 place-items-center gap-6">
         <div className="overflow-hidden shadow-lg rounded-lg h-90 w-80 cursor-pointer m-auto relative md:col-start-2">
             <a href="#" className="absolute w-full h-full z-30"></a>
-            <img alt="blog photo" src="/feature/beerwah.jpg" className="rounded-t-lg max-h-40 w-full object-cover"/>
+            <picture>
+          <source srcset="/feature/beerwah.avif" type="image/avif" />
+          <source srcset="/feature/beerwah.webp" type="image/webp" />
+          <img src="/feature/beerwah.jpg" alt="Jeremy at the summit of Mt Beerwah" className="rounded-t-lg max-h-40 w-full object-cover" />
+        </picture>
+
             <div className="bg-white w-full p-4 relative">
                 <p className="text-indigo-500 text-md font-medium">
                 </p>
