@@ -6,7 +6,7 @@ const About = () => {
 <div className=" mx-auto px-2">
 
     <ul className="grid place-items-start grid-cols-1 gap-8 md:grid-cols-2 mb-6">
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What are you most excited for in 2021?
             </p>
@@ -16,7 +16,7 @@ const About = () => {
                 Another thing I'm excited about is that I recently got my first VR headset, the HP Reverb G2. I am buzzing that I can fly a spaceship even if it's not quite the real thing.                </p>
             </p>
         </li>
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What would you want to achieve if you had all of the knowledge, resources and self-belief you needed?
             </p>
@@ -25,7 +25,7 @@ const About = () => {
                 I would help create technologies that bridge the link between our brains and computers and solve problems ranging from medical all the way through to entertainment. I believe Brain Computer Interfaces will become a huge industry in the future and the possibilities are extremely exciting.                 </p>
             </p>
         </li>
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What are you currently working on?
             </p>
@@ -34,7 +34,7 @@ const About = () => {
                 I am in the final term of Coder Academy’s Fast Track Coding Bootcamp. At the moment we are learning React and are about to start our final projects using MERN stack. Some of things we previously covered include Ruby (which I love), Ruby on Rails, HTML, CSS, JavaScript. It’s been an intense program so I haven’t been able to work on many projects outside of the course but I have plenty of ideas that I want to put my new skills towards.</p>
             </p>
         </li>
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What do you like to do outside of developing?
             </p>
@@ -45,7 +45,7 @@ For outside activities, I enjoy running, lifting weights, bouldering and once a 
                 </p>
             </p>
         </li>
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What is a side project you want to work on?
             </p>
@@ -54,7 +54,7 @@ For outside activities, I enjoy running, lifting weights, bouldering and once a 
                 I want to develop a running app that uses heart rate training methodologies to increase my running ability and to track my progress through a running program. I recently learned about heart rate training and I have found that running with HR in mind instead of focusing on pace has helped me, but none of the apps I have found do exactly what I want, so why not make my own?                  </p>
             </p>
         </li>
-        <li className="w-4/5">
+        <li className="lg:w-4/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
                 What is the thing you could talk endlessy about?
             </p>
