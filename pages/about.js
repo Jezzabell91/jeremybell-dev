@@ -1,7 +1,13 @@
+import Head from 'next/head'
+
 const About = () => {
     return (
         <>    
-
+      <Head>
+        <title>About Jeremy</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
 
 <div className=" mx-auto px-2">
 
@@ -36,7 +42,7 @@ const About = () => {
                 <p className="text-base leading-6 text-gray-500">
                  For this site I felt like trying some technologies that I wasn't familiar with as well. The website is built with Next.js and hosted on Vercel and styling has been done with TailwindCSS. I was interested in how Next.js handled <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://nextjs.org/docs/routing/introduction">routing and linking between pages</a>. 
                 </p>
-                <p className="text-base leading-6 text-gray-500">
+                <p className="text-base leading-6 text-gray-500 mt-2">
                 I was also interested in using new image formats. All feature images on this site have AVIF and WebP versions created using <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://squoosh.app/">Squoosh</a>. They also have a back up .jpg that are used for browsers that aren't compatible with the newer technologies. 
                 AVIF images are much smaller in size but have the same visual quality, however at the moment they are only <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://caniuse.com/avif">supported</a> by the current versions of Chrome, Firefox and Opera.               
                 </p>
@@ -51,7 +57,7 @@ const About = () => {
                 I recently completed a project using the MERN stack and I enjoyed the flexibility of using Express and MongoDB in the backend to develop the API and pairing it with React in the frontend. 
                 I like that React has an extensive community and I found using packages like <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://react-hook-form.com/">React Hook Form</a> made the development experience better.
                 </p> 
-                <p className="text-base leading-6 text-gray-500">
+                <p className="text-base leading-6 text-gray-500 mt-2">
                 I really like using vanilla JavaScript with HTML and TailwindCSS however my first love in programming was Ruby.    
                 </p>
             </p>
