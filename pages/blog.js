@@ -1,6 +1,13 @@
+import Head from 'next/head'
+
 const Blog = () => {
     return (
         <>
+              <Head>
+        <title>Jeremy's Blog</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
     <div className="grid grid-cols-1 md:grid-cols-2 md:grid-flow-col-dense lg:grid-cols-3 place-items-center gap-6">
         <div className="overflow-hidden shadow-lg rounded-lg h-90 w-80 cursor-pointer m-auto relative md:col-start-2">
             <a href="#" className="absolute w-full h-full z-30"></a>

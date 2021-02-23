@@ -1,9 +1,13 @@
-
-import Image from 'next/image'
+import Head from 'next/head'
 
 const Homepage = () => {
   return (
     <>
+      <Head>
+        <title>Jeremy Bell - Dev</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="mx-2 my-auto grid place-items-center grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-4 pb-8">
 
       <picture>

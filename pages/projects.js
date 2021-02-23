@@ -1,6 +1,13 @@
+import Head from 'next/head'
+
 const Projects = () => {
     return (
         <>
+        <Head>
+        <title>Jeremy's Projects</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <div className="lg:grid lg:grid-cols-1 lg:grid-rows-2 md:gap-8 lg:gap-12 lg:items-center mb-6">
             <div className="lg:col-start-2 lg:row-start-1 max-w-lg ">
                 <h4 className="text-2xl leading-8 font-extrabold text-gray-900">
