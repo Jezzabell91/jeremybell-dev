@@ -28,3 +28,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+They also have a back up .jpg that are used for browsers that aren't compatible with the newer technologies.
+                                        AVIF images are much smaller in size but have the same visual quality, however at the moment they are only <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://caniuse.com/avif">supported</a> by the current versions of Chrome, Firefox and Opera.
