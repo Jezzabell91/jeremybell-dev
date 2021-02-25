@@ -197,7 +197,7 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen5 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        I do a lot of reading, and I generally alternate between sci-fi/fantasy, fictionalised history and classNameics. I’m also a big gamer. At the moment I’m playing Hades on Switch, Doom Eternal on PC and Half Life: Alyx in VR.
+                                        I like to read. I generally alternate between sci-fi/fantasy, fictionalised history and classics. I’m also a big gamer. At the moment I’m playing Hades on Switch, Doom Eternal on PC and Half Life: Alyx in VR.
                                         For outside activities, I enjoy running, lifting weights, bouldering and once a week I play beach volleyball. I’m almost always up for hanging out and grabbing a beer with friends.
                 </p>
                                 </dd>
