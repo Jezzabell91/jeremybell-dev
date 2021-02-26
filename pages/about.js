@@ -38,8 +38,8 @@ const About = () => {
             </Head>
 
             <div className="pt-0">
-                <div className="max-w-7xl mx-auto pb-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-                    <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+                <div className="mx-auto pb-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+                    <div className="max-w-5xl mx-auto divide-y-2 divide-gray-200">
                         
       <span className="w-full flex justify-between items-start">
       <h2 className="text-left text-3xl font-extrabold text-pink-700 sm:text-4xl">
