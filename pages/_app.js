@@ -10,19 +10,20 @@ const links = [
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="max-w-5xl mx-auto flex flex-col h-screen  px-4">
-      <header className="pt-12 ml-2">
-        <a href="/"
-          className="text-pink-700 hover:text-pink-200 hover:border-black transition duration-500 text-5xl font-bold border-gray-300 border-b-2 inline-block pb-0.5">
-          Jeremy Bell
-        </a>
+    // <div className="max-w-5xl mx-auto flex flex-col h-screen  px-4">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="max-w-5xl mx-auto">
+      <header className="pt-6 ml-2">
+        <Link href="/">
+          <a  className="text-pink-700 hover:text-pink-200 hover:border-black transition duration-500 text-5xl font-bold border-gray-300 border-b-2 inline-block pb-0.5">Jeremy Bell</a>
+        </Link>
 
         <nav className="py-8">
           <ul className="flex flex-wrap justify-evenly">
             {links.map((link) => {
               return (
                 <li key={link}>
-                  <Link href={`${link}`}>
+                  <Link href={`/${link}`}>
                     <a className="transition duration-200 text-center m-2 block font-light text-3xl hover:text-red-400 focus:text-pink-200">{link}</a>
                   </Link>
                 </li>
@@ -76,6 +77,7 @@ function MyApp({ Component, pageProps }) {
           </ul>
         </nav>
       </footer>
+      </div>
     </div>
   )
 }
