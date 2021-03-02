@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const BlogCard = ({post}) => {
-    console.log(post)
+    // console.log(post)
     const title = post.title
     const slug = post.slug
     const date = post.date 
