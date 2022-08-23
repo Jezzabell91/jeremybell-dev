@@ -94,7 +94,7 @@ const About = () => {
                                     {/* <!-- Expand/collapse question button --> */}
                                     <button onClick={() => setIsOpen2(!isOpen2)} className="text-left w-full flex justify-between items-start text-gray-400">
                                         <span className="font-medium text-gray-900">
-                                            What are you currently working on?
+                                            What are you currently working ??
               </span>
                                         <span className="ml-6 h-7 flex items-center">
                                             {/* <!--
