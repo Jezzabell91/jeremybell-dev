@@ -14,7 +14,7 @@
 const ffmpeg_trim_and_compress = {
     id : 0,
     name: "FFMPEG Trim and Compress",
-    about: "Progressive Web App for Heart Rate Training",
+    about: "Trim and compress MP4 videos in the browser",
     url: "https://ffmpeg-trim-and-compress.vercel.app/",
     repo: "https://github.com/Jezzabell91/ffmpeg-trim-and-compress",
     image: "ffmpeg_trim_and_compress_screenshot",

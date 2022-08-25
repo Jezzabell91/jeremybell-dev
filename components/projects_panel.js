@@ -46,7 +46,7 @@ const [activeTab, setActiveTab] = useState(0)
         <span aria-hidden="true" className={`${activeTab === 3 ? 'bg-indigo-500 absolute inset-x-0 bottom-0 h-0.5' : 'bg-transparent absolute inset-x-0 bottom-0 h-0.5'}`}></span>
       </button>
 
-      <button onClick={() => setActiveTab(3)} aria-current={`${activeTab === 4 ? 'true' : 'false'}`} className={`${activeTab === 3 ? 'tabActive' : 'tabNotActive'} rounded-r-lg`}>
+      <button onClick={() => setActiveTab(4)} aria-current={`${activeTab === 4 ? 'true' : 'false'}`} className={`${activeTab === 4 ? 'tabActive' : 'tabNotActive'} rounded-r-lg`}>
         <span>{`${names[4]}`}</span>
         <span aria-hidden="true" className={`${activeTab === 4 ? 'bg-indigo-500 absolute inset-x-0 bottom-0 h-0.5' : 'bg-transparent absolute inset-x-0 bottom-0 h-0.5'}`}></span>
       </button>
