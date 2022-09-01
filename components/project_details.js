@@ -33,7 +33,7 @@ const ProjectDetails = ({project}) => {
                                     URL
                                 </h5>
                                 <p className="mt-2 text-base leading-6 text-gray-500">
-                                    <a href={`${url}`} className="hover:underline transition duration-200">{`${repo}`}</a>
+                                    <a href={`${url}`} className="hover:underline transition duration-200">{`${url}`}</a>
                                 </p>
                             </div>
                         </div>
