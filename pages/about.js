@@ -225,7 +225,7 @@ const About = () => {
                                         <picture>
                                             <source srcSet="/feature/isla.avif" type="image/avif" />
                                             <source srcSet="/feature/isla.webp" type="image/webp" />
-                                            <img src="/feature/isla.jpg" alt="Scottish Highland Cow Isla in the sunset" className="mr-2 rounded-sm shadow-xl transition duration-200 hover:shadow-2xl hover:opacity-95" />
+                                            <img src="/feature/isla.jpg" alt="Scottish Highland Cow Isla in the sunset" className="relative my-6 mx-auto border border-gray-50 shadow-lg rounded md:w-3/4" />
                                         </picture>
                                 </dd>
                             </div>
