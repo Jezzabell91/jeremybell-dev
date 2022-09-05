@@ -13,13 +13,13 @@ const Homepage = () => {
       <picture>
           <source srcSet="/feature/balloons.avif" type="image/avif" />
           <source srcSet="/feature/balloons.webp" type="image/webp" />
-          <img src="/feature/balloons.jpg" alt="Jeremy at the summit of Mt Beerwah" className="rounded-sm shadow-md transition duration-200 hover:shadow-lg hover:opacity-95" />
+          <img src="/feature/balloons.jpg" alt="Jeremy at sunrise, looking at hot air balloons in Cappadocia" className="rounded-sm shadow-md transition duration-200 hover:shadow-lg hover:opacity-95" />
       </picture>
 
       <picture>
           <source srcSet="/feature/istanbul.avif" type="image/avif" />
           <source srcSet="/feature/istanbul.webp" type="image/webp" />
-          <img src="/feature/istanbul.jpg" alt="Jeremy holding Frankie the Moodle" className="rounded-sm shadow-lg transition duration-200 hover:shadow-xl hover:opacity-95" />
+          <img src="/feature/istanbul.jpg" alt="Jeremy looking into the camera on a crowded street in Istanbul " className="rounded-sm shadow-lg transition duration-200 hover:shadow-xl hover:opacity-95" />
       </picture>
 
       <picture>
