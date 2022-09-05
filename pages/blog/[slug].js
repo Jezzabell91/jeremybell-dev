@@ -2,7 +2,7 @@ import Head from 'next/head'
 import BlogPosts from '../../_posts/posts'
 
 
-export default function BlogPage({ title, date, image, content }) {
+export default function BlogPage({ title, date, image1, image2, content }) {
   return (
     <div>
       <Head>
@@ -20,15 +20,24 @@ export default function BlogPage({ title, date, image, content }) {
 
       <p className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">{content[0]}</p>
       <div className="sm:flex">
-      <div className="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
-      <picture >
-                <source srcSet={`/blog/${image}.avif`} type="image/avif" />
-                <source srcSet={`/blog/${image}.webp`} type="image/webp" />
-                <img src={`/blog/${image}.jpg`} alt={`Screenshot of ${image}`} className="relative my-6 mx-auto border border-gray-50 shadow-lg rounded md:w-3/4" />
-        </picture>
+        <div className="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
+          <picture>
+                    <source srcSet={`/blog/${image1}.avif`} type="image/avif" />
+                    <source srcSet={`/blog/${image1}.webp`} type="image/webp" />
+                    <img src={`/blog/${image1}.jpg`} alt={`Screenshot of ${image1}`} className="relative my-6 mx-auto border border-gray-50 shadow-lg rounded md:w-3/4" />
+          </picture>
         </div>
-        </div>
+      </div>
       <p className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">{content[1]}</p>
+      <div className="sm:flex">
+        <div className="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
+          <picture>
+                    <source srcSet={`/blog/${image2}.avif`} type="image/avif" />
+                    <source srcSet={`/blog/${image2}.webp`} type="image/webp" />
+                    <img src={`/blog/${image2}.jpg`} alt={`Screenshot of ${image2}`} className="relative my-6 mx-auto border border-gray-50 shadow-lg rounded md:w-3/4" />
+          </picture>
+        </div>
+      </div>
       <p className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">{content[2]}</p>
   </div>
 </div>

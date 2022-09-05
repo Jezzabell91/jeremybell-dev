@@ -26,6 +26,18 @@ const ProjectDetails = ({project}) => {
                     {about}
                 </h5>
                 <ul className="mt-4">
+                    <li className="mt-4">
+                        <div className="flex">
+                            <div className="">
+                                <h5 className="text-lg leading-6 font-medium text-gray-900">
+                                    URL
+                                </h5>
+                                <p className="mt-2 text-base leading-6 text-gray-500">
+                                    <a href={`${url}`} className="hover:underline transition duration-200">{`${url}`}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                     <li>
                         <div className="flex">
                             <div className="">
@@ -38,6 +50,7 @@ const ProjectDetails = ({project}) => {
                             </div>
                         </div>
                     </li>
+                    
                     <li className="mt-4">
                         <div className="flex">
                             
@@ -75,6 +88,7 @@ const ProjectDetails = ({project}) => {
                             </div>
                         </div>
                     </li>
+                    
                 </ul>
         </div>
 </div>

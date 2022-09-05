@@ -11,15 +11,15 @@ const Homepage = () => {
       <div className="mx-2 my-auto grid place-items-center grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-4 pb-8">
 
       <picture>
-          <source srcSet="/feature/beerwah.avif" type="image/avif" />
-          <source srcSet="/feature/beerwah.webp" type="image/webp" />
-          <img src="/feature/beerwah.jpg" alt="Jeremy at the summit of Mt Beerwah" className="rounded-sm shadow-md transition duration-200 hover:shadow-lg hover:opacity-95" />
+          <source srcSet="/feature/balloons.avif" type="image/avif" />
+          <source srcSet="/feature/balloons.webp" type="image/webp" />
+          <img src="/feature/balloons.jpg" alt="Jeremy at sunrise, looking at hot air balloons in Cappadocia" className="rounded-sm shadow-md transition duration-200 hover:shadow-lg hover:opacity-95" />
       </picture>
 
       <picture>
-          <source srcSet="/feature/feature.avif" type="image/avif" />
-          <source srcSet="/feature/feature.webp" type="image/webp" />
-          <img src="/feature/feature.jpg" alt="Jeremy holding Frankie the Moodle" className="rounded-sm shadow-lg transition duration-200 hover:shadow-xl hover:opacity-95" />
+          <source srcSet="/feature/istanbul.avif" type="image/avif" />
+          <source srcSet="/feature/istanbul.webp" type="image/webp" />
+          <img src="/feature/istanbul.jpg" alt="Jeremy looking into the camera on a crowded street in Istanbul " className="rounded-sm shadow-lg transition duration-200 hover:shadow-xl hover:opacity-95" />
       </picture>
 
       <picture>

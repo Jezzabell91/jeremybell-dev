@@ -68,7 +68,7 @@ const About = () => {
                                     {/* <!-- Expand/collapse question button --> */}
                                     <button onClick={() => setIsOpen1(!isOpen1)} className="text-left w-full flex justify-between items-start text-gray-400">
                                         <span className="font-medium text-gray-900">
-                                            What are you most excited for in 2021?
+                                            Who are you?
                                         </span>
                                         <span className="ml-6 h-7 flex items-center">
                                             {/* <!--
@@ -84,8 +84,9 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen1 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        This year I’m hoping I can get my first job as a junior developer. Signing the contract that for the first job of my new career is going to be an amazing feeling.
-                Another thing I'm excited about is that I recently got my first VR headset, the HP Reverb G2. I am buzzing that I can fly a spaceship even if it's not quite the real thing.                </p>
+                                    I am a 31 year old developer from Brisbane. I have worked many jobs in the past including landscape labouring, dishwashing, night manager for a backpacker hostel, hotel receptionist and most recently as a teaching assistant for Coder Academy.
+                                    I am definitely an introvert but I love dealing with people, my favourite jobs are the ones where I get to interact with customers. I enjoy travelling solo and as it forces me out of my comfort zone and I love not knowing what is going to happen on any given day.    
+                                    </p>
                                 </dd>
                             </div>
 
@@ -94,7 +95,7 @@ const About = () => {
                                     {/* <!-- Expand/collapse question button --> */}
                                     <button onClick={() => setIsOpen2(!isOpen2)} className="text-left w-full flex justify-between items-start text-gray-400">
                                         <span className="font-medium text-gray-900">
-                                            What are you currently working ??
+                                            You just got back from 4 months of travel, what was your favourite country?
               </span>
                                         <span className="ml-6 h-7 flex items-center">
                                             {/* <!--
@@ -110,8 +111,7 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen2 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        I just finished Coder Academy’s Fast Track Coding Bootcamp. At the moment I am focusing on some side projects inlcuding, <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://github.com/Jezzabell91/heart-rate-training">Heart Rate Trainer</a>, a PWA for running that uses the <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API">Web Bluetooth API</a> to connect to a heart rate monitor.
-                I'm enjoying developing something that I use almost every day and incrementally improving it.
+                                    I enjoyed every country that I went to, but my favourite would be Lithuania. It is such a different place to Australia and I knew almost nothing about it before I went there. It was fascinating learning the history, from the wars with the Teutonic Order in the early 1400's to their more recent history with Russia and the USSR.  
                 </p>
                                 </dd>
                             </div>
@@ -151,7 +151,7 @@ const About = () => {
                                     {/* <!-- Expand/collapse question button --> */}
                                     <button onClick={() => setIsOpen4(!isOpen4)} className="text-left w-full flex justify-between items-start text-gray-400">
                                         <span className="font-medium text-gray-900">
-                                            What webdev technologies do you like?
+                                        What is your greatest professional achievement?
               </span>
                                         <span className="ml-6 h-7 flex items-center">
                                             {/* <!--
@@ -167,12 +167,9 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen4 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        I recently completed a project using the MERN stack and I enjoyed the flexibility of using Express and MongoDB in the backend to develop the API and pairing it with React in the frontend.
-                I like that React has an extensive community and I found using packages like <a className="underline transition duration-200 hover:text-red-400 hover:no-underline" href="https://react-hook-form.com/">React Hook Form</a> made the development experience better.
+                                        The thing I am most proud of is helping my students to finish their diploma's at Coder Academy. Due to staff changes the final term of the course was a little more tumultuous and I found myself having to step up in to more of a leadership role. I am really proud of what the students were able to achieve and it makes me really happy seeing them start their careers after so much hard work.  
                 </p>
-                                    <p className="text-base leading-6 text-gray-500 mt-2">
-                                        I really like using vanilla JavaScript with HTML and TailwindCSS however my first love in programming was Ruby.
-                </p>
+                            
                                 </dd>
                             </div>
 
@@ -197,7 +194,7 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen5 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        I like to read. I generally alternate between sci-fi/fantasy, fictionalised history and classics. I’m also a big gamer. At the moment I’m playing Hades on Switch, Doom Eternal on PC and Half Life: Alyx in VR.
+                                        I like to read. I generally alternate between sci-fi/fantasy, history and classics. I’m also a big gamer.
                                         For outside activities, I enjoy running, lifting weights, bouldering and once a week I play beach volleyball. I’m almost always up for hanging out and grabbing a beer with friends.
                 </p>
                                 </dd>
@@ -224,7 +221,12 @@ const About = () => {
                                 </dt>
                                 <dd className={`${isOpen6 ? '' : 'hidden'} mt-2 pr-12`}>
                                     <p className="text-base leading-6 text-gray-500">
-                                        A bit weird, but I have an obsession/passion for the reality TV show Survivor. I honestly could go on for days talking about it, so if you ever feel like talking to someone about Survivor please hit me up.</p>
+                                        Cows. For the past six years my mum has owned a farm raising Scottish Highland cows. I can talk about the cows for hours and I love showing off pictures of them.</p>
+                                        <picture>
+                                            <source srcSet="/feature/isla.avif" type="image/avif" />
+                                            <source srcSet="/feature/isla.webp" type="image/webp" />
+                                            <img src="/feature/isla.jpg" alt="Scottish Highland Cow Isla in the sunset" className="relative my-6 mx-auto border border-gray-50 shadow-lg rounded md:w-3/4" />
+                                        </picture>
                                 </dd>
                             </div>
                         </dl>

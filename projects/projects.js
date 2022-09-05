@@ -11,8 +11,20 @@
 //     features: String,
 // }
 
-const hr_trainer = {
+const ffmpeg_trim_and_compress = {
     id : 0,
+    name: "FFMPEG Trim and Compress",
+    about: "Trim and compress MP4 videos in the browser",
+    url: "https://ffmpeg-trim-and-compress.vercel.app/",
+    repo: "https://github.com/Jezzabell91/ffmpeg-trim-and-compress",
+    image: "ffmpeg_trim_and_compress_screenshot",
+    tech: ["React","WebAssembly", "FFMPEG", "Vercel"],
+    purpose: "A web application to trim and compress MP4 videos using WebAssembly.",
+    features: ["Trim videos in browser","Compress MP4 file sizes using FFMPEG","Choose quality (480p, 576p, 720p, 1080p)"],
+}
+
+const hr_trainer = {
+    id : 1,
     name: "HR Trainer",
     about: "Progressive Web App for Heart Rate Training",
     url: "https://jovial-galileo-acee1d.netlify.app/",
@@ -24,7 +36,7 @@ const hr_trainer = {
 }
 
 const cowgo = {
-    id : 1,
+    id : 2,
     name: "CowGo",
     about: "Coder Academy - Ruby on Rails Project",
     url: "https://cowgo.herokuapp.com/",
@@ -36,7 +48,7 @@ const cowgo = {
 }
 
 const steggyhide = {
-    id : 2,
+    id : 3,
     name: "SteggyHide",
     about: "Coder Academy - Ruby Terminal Application Project",
     url: "https://github.com/Jezzabell91/SteggyHide",
@@ -48,7 +60,7 @@ const steggyhide = {
 }
 
 const cityclimb = {
-    id : 3,
+    id : 4,
     name: "City Climb",
     about: "Coder Academy - MERN Stack Group Project",
     url: "https://city-climb.herokuapp.com/",
@@ -60,6 +72,6 @@ const cityclimb = {
 
 }
 
-const projects = [hr_trainer, cowgo, steggyhide, cityclimb]
+const projects = [ffmpeg_trim_and_compress, hr_trainer, cowgo, steggyhide, cityclimb]
 
 export default projects
